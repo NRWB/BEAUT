@@ -2,13 +2,13 @@
 (B)ittorrent (E)asy (A)uto (U)pload (T)ool
 
 ## About
-[BEAUT](https://github.com/NRWB/BEAUT) is defined to generically weave in and out of tracker niche's in order to supplement ease with uploading of files.
+BEAUT is defined to generically weave in and out of tracker niche's in order to supplement ease with uploading of files. With the simple and powerful design, BEAUT makes `.torrent` files easily and can upload said content autonomously to supported web trackers (given a supported template exists).
 
 ## What is BitTorrent?
 Read the [introduction](http://www.bittorrent.org/introduction.html). Also, the [proposals/specification(s)](http://www.bittorrent.org/beps/bep_0000.html). Followed by more helpful knowledge at some [wiki specification(s)](https://wiki.theory.org/BitTorrentSpecification).
 
 ## How BEAUT works
-See the `workflow` directory.
+See the `workflow` directory for visual representation. To summarize, BEAUT monitors a given directory, e.g. `target` and as BEAUT recognizes content, BEAUT proceeds to make `.torrent` files for said respective content. The results (one content and one `.torrent` file) are moved to a given destination, e.g. `output`, directory. There's also a
 
 ## Features
 There are many features available for use with BEAUT
@@ -16,6 +16,9 @@ There are many features available for use with BEAUT
 ## Requirements
 - Internet Access
 - Java 1.7+
+- Apache Commons CLI
+- JSoup
+- Selenium (?)
 
 ## Install / Setup
 See the `INSTALL` file for more information about how to setup and/or install [BEAUT](https://github.com/NRWB/BEAUT).
