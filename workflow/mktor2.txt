@@ -1,0 +1,1 @@
+same idea as visual in mktor.png, except output has option to be uploaded to a tracker website of choice (given supported template exists).
