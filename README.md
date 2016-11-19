@@ -5,7 +5,7 @@
 [BEAUT](https://github.com/NRWB/BEAUT) is defined to generically weave in and out of tracker niche's in order to supplement ease with uploading of files.
 
 ## What is BitTorrent?
-Read the [introduction](http://www.bittorrent.org/introduction.html).
+Read the [introduction](http://www.bittorrent.org/introduction.html). Also, the [proposals/specification(s)](http://www.bittorrent.org/beps/bep_0000.html). Followed by more helpful knowledge at some [wiki specification(s)](https://wiki.theory.org/BitTorrentSpecification).
 
 ## How BEAUT works
 See the `workflow` directory.
@@ -14,14 +14,15 @@ See the `workflow` directory.
 There are many features available for use with BEAUT
 
 ## Requirements
-Internet Access
-Java 1.7+
+- Internet Access
+- Java 1.7+
 
 ## Install / Setup
 See the `INSTALL` file for more information about how to setup and/or install [BEAUT](https://github.com/NRWB/BEAUT).
 
 ## FAQ
--
+- Q: How do I edit/view a `.torrent` file to see what information is in there?
+- A: A `.torrent` file usually contains general metadata. Try the [bencode-editor](https://sites.google.com/site/ultimasites/bencode-editor), transmission-show, etc.
 
 ## How it [will] work(s)
 You specify a directory (say `dirA`) to monitor. When a new file appears in this monitored directory (again, `dirA`) a .torrent file is created/generated automatically and placed into a predefined directory (let's say `dirB`). When `dirB` notices .torrent file it will attempt to upload the file automatically. After attempting to upload the .torrent file (and it's respective torrent), the .torrent file is moved into a directory (how about `dirC`) where the .torrent will remain as archived (will not be used or touched again by BEAUT).
