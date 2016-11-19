@@ -8,7 +8,7 @@ BEAUT is defined to generically weave in and out of tracker niche's in order to 
 Read the [introduction](http://www.bittorrent.org/introduction.html). Also, the [proposals/specification(s)](http://www.bittorrent.org/beps/bep_0000.html). Followed by more helpful knowledge at some [wiki specification(s)](https://wiki.theory.org/BitTorrentSpecification).
 
 ## How BEAUT works
-See the `workflow` directory for visual representation. To summarize, BEAUT monitors a given directory, e.g. `target` and as BEAUT recognizes content, BEAUT proceeds to make `.torrent` files for said respective content. The results (one content and one `.torrent` file) are moved to a given destination, e.g. `output`, directory. There's also a
+See the `workflow` directory for visual representation. To summarize, BEAUT monitors a given directory, e.g. `target` and as BEAUT recognizes content, BEAUT proceeds to make `.torrent` files for said respective content. The results (one content and one `.torrent` file) are moved to a given destination, e.g. `output`, directory.
 
 ## Features
 There are many features available for use with BEAUT
