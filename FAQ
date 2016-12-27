@@ -16,3 +16,11 @@ A: To view what meta data is stored in a '.torrent' file, use programs such as: 
 Q: What's the info-hash property inside a torrent file?
 A: Please see http://stackoverflow.com/a/28601408/6393165 or http://stackoverflow.com/questions/28348678/what-exactly-is-the-info-hash-in-a-torrent-file
 
+Q: What's the general concensus of naming?
+A: Different trackers (websites) - people - have their own naming conventions. However it is generally accepted to use the follow characters only to help maintain a sense of uniformity across systems:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghijklmnopqrstuvwxyz
+0123456789-_.
+
+Q: Where can I find information about standards?
+A: For scene related standards, please see https://scenerules.org/ or http://scenegrouplist.com/
