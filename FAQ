@@ -1,0 +1,18 @@
+Q: What's a torrent file?
+A: Please see https://en.wikipedia.org/wiki/Torrent_file
+
+Q: What's BitTorrent?
+A: Please see https://en.wikipedia.org/wiki/BitTorrent
+
+Q: Why is this program open source?
+A: To allow for contributors, to allow for learning, to better further this project by fellow open minds.
+
+Q: Why is the program written primarily in the Java programming language?
+A: Java is a great language, OOP by design, and accomplishes all the tasks set forth by this program/project.
+
+Q: How do I see what a torrent file contains?
+A: To view what meta data is stored in a '.torrent' file, use programs such as: bencode-editor, transmission-show, etc.
+
+Q: What's the info-hash property inside a torrent file?
+A: Please see http://stackoverflow.com/a/28601408/6393165 or http://stackoverflow.com/questions/28348678/what-exactly-is-the-info-hash-in-a-torrent-file
+

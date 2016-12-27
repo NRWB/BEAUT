@@ -1,0 +1,16 @@
+Software used throughout dev;
+
++ Decompile
+ - CFR - another java decompiler = http://www.benf.org/other/cfr/
+  - reason = java decompile, learn
+
+ - Java Decompiler - Yet another fast Java decompiler = http://jd.benow.ca/
+  - reason = java decompile, learn
+
+ - Soot - A Java optimization framework = https://github.com/Sable/soot or https://sable.github.io/soot/ or https://www.sable.mcgill.ca/soot/
+  - reason = java decompile, learn
+
++ IDE
+ - Eclipse Java EE IDE for Web Developers. Version: Neon Release (4.6.0) Build id: 20160613-1800
+  - reason = N/A
+
