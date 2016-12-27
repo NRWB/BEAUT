@@ -29,6 +29,15 @@ public class ConfigRead {
 
     // get the value, given key
     public Object get(String key) {
-        return prop.getProperty(key);
+        return this.prop.getProperty(key);
+    }
+
+    public void printAll() {
+        Enumeration<?> e = this.prop.propertyNames();
+        while (e.hasMoreElements()) {
+            String key = (String) e.nextElement();
+            String value = prop.getProperty(key);
+            System.out.println("key: " + key + ", value: " + value);
+        }
     }
 }
