@@ -1,3 +1,4 @@
+package com.beaut.config;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -38,7 +39,7 @@ public class ConfigWrite {
 
     public void save() {
         try (OutputStream output = new FileOutputStream(this.fp)) {
-            this.prop.store(out, null);
+            this.prop.store(output, null);
         } catch (IOException e) {
             e.printStackTrace();
         }
