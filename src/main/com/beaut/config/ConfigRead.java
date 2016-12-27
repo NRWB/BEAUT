@@ -1,7 +1,9 @@
+package com.beaut.config;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Enumeration;
 import java.util.Properties;
 
 /*
@@ -36,7 +38,7 @@ public class ConfigRead {
         Enumeration<?> e = this.prop.propertyNames();
         while (e.hasMoreElements()) {
             String key = (String) e.nextElement();
-            String value = prop.getProperty(key);
+            String value = this.prop.getProperty(key);
             System.out.println("key: " + key + ", value: " + value);
         }
     }
